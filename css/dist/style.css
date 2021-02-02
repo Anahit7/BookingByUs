@@ -144,8 +144,7 @@ p {
   width: 100%;
   font-weight: bold;
   letter-spacing: 3px;
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   color: #666;
   position: relative;
   padding-bottom: 55px;
@@ -260,12 +259,6 @@ nav .nav #nav_menu [data-search] input {
   background: transparent;
   color: #fff;
 }
-nav .nav #nav_menu [data-search] input::-moz-placeholder {
-  color: #fff;
-}
-nav .nav #nav_menu [data-search] input:-ms-input-placeholder {
-  color: #fff;
-}
 nav .nav #nav_menu [data-search] input::placeholder {
   color: #fff;
 }
@@ -366,12 +359,6 @@ header .header form input, header .header form .member_count, header .header for
   min-height: 50px;
   cursor: pointer;
 }
-header .header form input::-moz-placeholder, header .header form .member_count::-moz-placeholder, header .header form select::-moz-placeholder {
-  color: #5d5d5d;
-}
-header .header form input:-ms-input-placeholder, header .header form .member_count:-ms-input-placeholder, header .header form select:-ms-input-placeholder {
-  color: #5d5d5d;
-}
 header .header form input::placeholder, header .header form .member_count::placeholder, header .header form select::placeholder {
   color: #5d5d5d;
 }
@@ -445,8 +432,6 @@ main .main .services .services_items .service_item .service_items_text a {
   display: block;
   background: #fff;
   padding: 8px 15px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   color: #303F9F;
   text-decoration: none;
@@ -610,8 +595,7 @@ main .main .reviews .owl-carousel .reviews_item .user_img img {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 main .main .reviews .owl-carousel .reviews_item .user_img svg {
   width: 100%;
@@ -943,12 +927,6 @@ footer .footer_bottom .container a {
   margin-bottom: 15px;
   border: 1px solid #ccc;
 }
-.modal [data-offer-form] input::-moz-placeholder {
-  color: #5d5d5d;
-}
-.modal [data-offer-form] input:-ms-input-placeholder {
-  color: #5d5d5d;
-}
 .modal [data-offer-form] input::placeholder {
   color: #5d5d5d;
 }
@@ -1165,4 +1143,4 @@ footer .footer_bottom .container a {
   font-family: sans-serif;
   margin-left: 13px;
   color: #180c38;
-}/*# sourceMappingURL=style.css.map */
+}
